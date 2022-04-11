@@ -1,2 +1,2 @@
 # musalaAutomationTask
-task for atuomation
+task for atuomation.

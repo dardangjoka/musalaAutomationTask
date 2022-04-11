@@ -1,0 +1,1396 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T19:17:52.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1674227500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User enters invalid email.",
+        "description": "",
+        "id": "valdiate-that-email-input-doesnt-take-invalid-entries.;user-enters-invalid-email.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 126885300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9649424400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24401800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scrolls down to Contact section",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.scrolls_down_to_contact_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117194200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Contact Us.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.clicks_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519631400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should fill in \"Dardan\", \"test1@te\", \"3048\", \"testing\" and \"Hello WOrld\" input boxes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dardan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"test1@te\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3048\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Hello WOrld\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.musala.stepDefinition.ContactForm.user_should_fill_in_and_input_boxes(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368660100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Send Button.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.click_the_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:05.394Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1018147600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User enters invalid email.",
+        "description": "",
+        "id": "valdiate-that-email-input-doesnt-take-invalid-entries.;user-enters-invalid-email.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 110420300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3363271700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17970900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scrolls down to Contact section",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.scrolls_down_to_contact_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118683200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Contact Us.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.clicks_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607932700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should fill in \"Dardan\", \"test2@te\", \"3048\", \"testing\" and \"Hello WOrld\" input boxes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dardan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"test2@te\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3048\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Hello WOrld\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.musala.stepDefinition.ContactForm.user_should_fill_in_and_input_boxes(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360599700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Send Button.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.click_the_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:10.999Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1019743900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User enters invalid email.",
+        "description": "",
+        "id": "valdiate-that-email-input-doesnt-take-invalid-entries.;user-enters-invalid-email.;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 110003800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4978418600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8627500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scrolls down to Contact section",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.scrolls_down_to_contact_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129824700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Contact Us.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.clicks_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556457300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should fill in \"Dardan\", \"test2@te\", \"3048\", \"testing\" and \"Hello WOrld\" input boxes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dardan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"test2@te\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3048\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Hello WOrld\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.musala.stepDefinition.ContactForm.user_should_fill_in_and_input_boxes(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360209500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Send Button.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.click_the_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:18.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1040932500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User enters invalid email.",
+        "description": "",
+        "id": "valdiate-that-email-input-doesnt-take-invalid-entries.;user-enters-invalid-email.;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 109021900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3274563800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21945800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scrolls down to Contact section",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.scrolls_down_to_contact_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101730500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Contact Us.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.clicks_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472148500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should fill in \"Dardan\", \"test4@te\", \"3048\", \"testing\" and \"Hello WOrld\" input boxes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dardan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"test4@te\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3048\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Hello WOrld\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.musala.stepDefinition.ContactForm.user_should_fill_in_and_input_boxes(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 398434200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Send Button.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.click_the_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:23.597Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1040941600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User enters invalid email.",
+        "description": "",
+        "id": "valdiate-that-email-input-doesnt-take-invalid-entries.;user-enters-invalid-email.;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 111627000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4402666500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15662300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scrolls down to Contact section",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.scrolls_down_to_contact_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112700200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on Contact Us.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.clicks_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432312700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should fill in \"Dardan\", \"test5@te\", \"3048\", \"testing\" and \"Hello WOrld\" input boxes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dardan\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"test5@te\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"3048\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Hello WOrld\"",
+                  "offset": 64
+                }
+              ],
+              "location": "com.musala.stepDefinition.ContactForm.user_should_fill_in_and_input_boxes(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379887200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Send Button.",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.click_the_send_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      }
+    ],
+    "name": "Valdiate that email input doesnt take invalid entries.",
+    "description": "",
+    "id": "valdiate-that-email-input-doesnt-take-invalid-entries.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase1.feature",
+    "tags": [
+      {
+        "name": "@tests",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2886975800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:30.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1032395100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify testCase2",
+        "description": "",
+        "id": "testcase2;verify-testcase2",
+        "after": [
+          {
+            "result": {
+              "duration": 115703100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1273729100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the \u0027Company\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Company\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.user_clicks_on_the_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11969200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify that the correct url is being displayed  \"https://www.musala.com/company/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.musala.com/company/\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.verify_that_the_correct_url_is_being_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31914300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that there is a \"Leadership\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Leadership\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.verify_that_there_is_a_section(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 351642600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on the FacebookLink on the footer",
+            "match": {
+              "location": "com.musala.stepDefinition.CompanyTests.user_clicks_on_the_facebook_link_on_the_footer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 569248100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that the correct URL \"https://www.facebook.com/MusalaSoft?fref\u003dts\" loads",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/MusalaSoft?fref\u003dts\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.verify_that_the_correct_url_loads(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "very that the Musala Soft profile picture appears on the new page",
+            "match": {
+              "location": "com.musala.stepDefinition.CompanyTests.very_that_the_musala_soft_profile_picture_appears_on_the_new_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC2"
+          }
+        ]
+      }
+    ],
+    "name": "TestCase2",
+    "description": "",
+    "id": "testcase2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase2.feature",
+    "tags": [
+      {
+        "name": "@tests",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2930831400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:36.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1043722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "careers",
+        "description": "",
+        "id": "testcase-3;careers",
+        "after": [
+          {
+            "result": {
+              "duration": 124606700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2157101000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the \u0027Career\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Career\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.user_clicks_on_the_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2427025500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicks \u0027Check our open positions\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Check our open positions\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4989100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that ‘Join Us’ page is opened \"https://www.musala.com/careers/join-us/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.musala.com/careers/join-us/\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.verify_that_join_us_page_is_opened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92148700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "From the dropdown ‘Select location’ select ‘Anywhere’",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.from_the_dropdown_select_location_select_anywhere()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387798600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Choose open position by name (e.g. \"Experienced Automation QA Engineer\")",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Experienced Automation QA Engineer\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.choose_open_position_by_name_e_g(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100518100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that 4 main sections are shown: \"General description\", \"Requirements\", \"Responsibilities\", \"What we offer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 12
+                },
+                {
+                  "val": "\"General description\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Requirements\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Responsibilities\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"What we offer\"",
+                  "offset": 98
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.verify_that_main_sections_are_shown(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184927300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "erify that ‘Apply’ button is present at the bottom",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.erify_that_apply_button_is_present_at_the_bottom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399650700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click ‘Apply’ button",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.click_apply_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134761200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "send",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.send(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "email"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "das@da"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153343500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Upload cv document and click send",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.upload_cv_document_and_click_send()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484512400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "very that error message is showing",
+            "match": {
+              "location": "com.musala.stepDefinition.CareerTests.very_that_error_message_is_showing()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tests"
+          },
+          {
+            "name": "@TC3"
+          }
+        ]
+      }
+    ],
+    "name": "Testcase 3",
+    "description": "",
+    "id": "testcase-3",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase3.feature",
+    "tags": [
+      {
+        "name": "@tests",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937609800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:18:48.023Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1058559100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "careers printing",
+        "description": "",
+        "id": "test-case-4;careers-printing;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149447100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2118624000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the \u0027Career\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Career\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.user_clicks_on_the_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2616618700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks \u0027Check our open positions\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Check our open positions\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1692244700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filter the available positions by available cities in the dropdown ‘Select location’ \"Sofia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sofia\"",
+                  "offset": 85
+                }
+              ],
+              "location": "com.musala.stepDefinition.PrintignPosstions.filter_the_available_positions_by_available_cities_in_the_dropdown_select_location(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3002619500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Get the open positions by city",
+            "match": {
+              "location": "com.musala.stepDefinition.PrintignPosstions.get_the_open_positions_by_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000571000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "prints out the possitons.",
+            "match": {
+              "location": "com.musala.stepDefinition.PrintignPosstions.prints_out_the_possitons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC4"
+          },
+          {
+            "name": "@tests"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "HomePage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2902867000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the homepage",
+            "match": {
+              "location": "com.musala.stepDefinition.ContactForm.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T19:19:02.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1050730600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "careers printing",
+        "description": "",
+        "id": "test-case-4;careers-printing;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 133487800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.musala.stepDefinition.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2173537900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the \u0027Career\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Career\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "com.musala.stepDefinition.CompanyTests.user_clicks_on_the_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2539864600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks \u0027Check our open positions\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Check our open positions\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.musala.stepDefinition.CareerTests.clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1773818200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filter the available positions by available cities in the dropdown ‘Select location’ \"Skopje\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skopje\"",
+                  "offset": 85
+                }
+              ],
+              "location": "com.musala.stepDefinition.PrintignPosstions.filter_the_available_positions_by_available_cities_in_the_dropdown_select_location(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011009600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Get the open positions by city",
+            "match": {
+              "location": "com.musala.stepDefinition.PrintignPosstions.get_the_open_positions_by_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812440200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "prints out the possitons.",
+            "match": {
+              "location": "com.musala.stepDefinition.PrintignPosstions.prints_out_the_possitons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC4"
+          },
+          {
+            "name": "@tests"
+          }
+        ]
+      }
+    ],
+    "name": "Test Case 4",
+    "description": "",
+    "id": "test-case-4",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase4.feature",
+    "tags": [
+      {
+        "name": "@TC4",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@tests",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    ]
+  }
+]
